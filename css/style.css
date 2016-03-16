@@ -1,0 +1,62 @@
+/*Page Hacks for better CSS*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/*-----Page Begins----*/
+
+
+body {
+  padding:2%;
+  font-family: 'Pompiere', cursive;
+
+}
+
+header {
+  margin: auto;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 30;
+}
+
+article {
+  margin: auto;
+}
+h1.flashy {
+  color: red;
+  font-style: italic;
+  font-size: 25px;
+}
+
+footer {
+  width: 100%;
+}
+
+li {
+  display: inline;
+  width: 33.333%;
+}
