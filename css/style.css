@@ -43,20 +43,48 @@ header h1 {
   font-size: 30;
 }
 
+header p {
+  font-size: 20px;
+}
+
 article {
   margin: auto;
 }
-h1.flashy {
+article h1.flashy {
+  text-align: center;
+  margin: auto;
   color: red;
   font-style: italic;
   font-size: 25px;
 }
 
+article img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto }
+article p {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 1%;
+}
+
 footer {
-  width: 100%;
+  border-top: 1px solid black;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
 }
 
 li {
+
+
   display: inline;
-  width: 33.333%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+a {
+  text-decoration: none;
+  color: red;
 }
