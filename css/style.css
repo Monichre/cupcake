@@ -37,6 +37,9 @@ body {
 header {
   margin: auto;
   text-align: center;
+  background-color: rgba(255, 0, 0, 0.3);
+  border-radius: 15px;
+
 }
 
 header h1 {
@@ -67,6 +70,20 @@ article p {
   margin: auto;
   width: 50%;
   padding: 1%;
+}
+
+img.best {
+  box-shadow: 12px 12px 5px 6px #D3D3D3;
+}
+
+p.best {
+  margin-top: 5px;
+}
+
+em {
+  font-size: 25px;
+  font-style: italic;
+  color: red;
 }
 
 footer {
